@@ -10,19 +10,19 @@
 <img align="left" alt="Python" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" />
 <img align="left" alt="HTML" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/600px-HTML5_Badge.svg.png" />
 <img align="left" alt="CSS" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1024px-CSS3_logo.svg.png" />
-
-
+<img align="left" alt="Flutter" width="26px" src="[https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1024px-CSS3_logo.svg.png](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Google-flutter-logo.png/799px-Google-flutter-logo.png
+)" />
 
 <br />
 <br />
 
 ### Stats
-/*<a href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" height="200" src="https://github-readme-stats.vercel.app/api?username=H-J52&count_private=true&show_icons=true&theme=react" />
 </a>
 <br/>
 <br/>
-<br/>*/
+<br/>
 
 <a href="https://github.com/anuraghazra/convoychat">
   <img align="center" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=H-J52&theme=react" />
