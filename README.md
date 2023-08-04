@@ -17,12 +17,12 @@
 <br />
 
 ### Stats
-<a href="https://github.com/anuraghazra/github-readme-stats">
+/*<a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" height="200" src="https://github-readme-stats.vercel.app/api?username=H-J52&count_private=true&show_icons=true&theme=react" />
 </a>
 <br/>
 <br/>
-<br/>
+<br/>*/
 
 <a href="https://github.com/anuraghazra/convoychat">
   <img align="center" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=H-J52&theme=react" />
