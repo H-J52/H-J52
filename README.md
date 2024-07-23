@@ -1,5 +1,5 @@
 ### H-J52
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hong's%20Github&reversal=false&textBg=false&fontColor=fffffe&fontSize=50&fontAlignY=45&animation=fadeIn&rotate=0&strokeWidth=0&descAlign=50&fontAlign=75)
+![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hong's%20Github&reversal=false&textBg=false&fontColor=fffffe&fontSize=50&fontAlignY=43&animation=fadeIn&rotate=0&strokeWidth=0&descAlign=50&fontAlign=75)
 
 - 📚 Student
 - 🌱 Currently learning everything
