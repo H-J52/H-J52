@@ -4,6 +4,10 @@
 ### Profile
 - 📚 Student
 - 🌱 Currently learning everything
+  
+<br>
+##
+<br>
 
 ### Languages and Tools
 <img align="left" alt="Visual Studio Code" width="26px" src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" />
@@ -13,8 +17,9 @@
 <img align="left" alt="HTML" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/600px-HTML5_Badge.svg.png" />
 
 <br>
-<br>
 ##
+<br>
+
 ### DEV's log 
 
 [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/badge?name=H-J52)](https://velog.io/@doragee)
