@@ -9,9 +9,11 @@
 ### Languages and Tools
 
 <div align=center> 
-  <b>Languages and Tools</b>
+# Languages and Tools
 </div>
+
 ---
+
 <center>
 
 # Languages and Tools
