@@ -16,9 +16,8 @@
 
 ---
 
-<p align="center" style="font-size: 50px;">
-  <b>제목을 중앙 정렬합니다</b>
-</p>
+<center><h1 style="font-size: 40px; font-weight: bold;">ㅁ</h1></center>
+
 
 
 
