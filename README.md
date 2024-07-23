@@ -19,4 +19,4 @@
   <img align="center" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=H-J52&theme=react" />
 </a>
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dkssud8150&theme=nord_dark)
+[![GitHub Streak](https://github-readme-streak-stats.H-J52.com/?user=dkssud8150&theme=tokyonight)](https://git.io/streak-stats)
