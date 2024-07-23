@@ -15,6 +15,7 @@
   <img align="center" alt="C#" src="https://img.shields.io/badge/C%23-2b2d3f?style=for-the-badge&logo=c&logoColor=FFFFFF"/>
   <img align="center" alt="Python" src="https://img.shields.io/badge/Python-2b2d3f?style=for-the-badge&logo=python&logoColor=FFFFFF"/>
   <img align="center" alt="Go" src="https://img.shields.io/badge/Go-2b2d3f?style=for-the-badge&logo=go&logoColor=FFFFFF"/>
+  <img align="center" alt="Java" src="https://img.shields.io/badge/Java-2b2d3f?style=for-the-badge&logo=Java&logoColor=FFFFFF"/>
   <br><br>
   <img align="center" alt="Html" src="https://img.shields.io/badge/Html-2b2d3f?style=for-the-badge&logo=html5&logoColor=FFFFFF"/>
   <img align="center" alt="Css" src="https://img.shields.io/badge/Css-2b2d3f?style=for-the-badge&logo=css3&logoColor=FFFFFF"/>
