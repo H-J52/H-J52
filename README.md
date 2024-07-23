@@ -19,6 +19,7 @@
   <img align="center" alt="Html" src="https://img.shields.io/badge/Html-2b2d3f?style=for-the-badge&logo=html5&logoColor=FFFFFF"/>
   <img align="center" alt="Css" src="https://img.shields.io/badge/Css-2b2d3f?style=for-the-badge&logo=css3&logoColor=FFFFFF"/>
   <img align="center" alt="Js" src="https://img.shields.io/badge/JavaScript-2b2d3f?style=for-the-badge&logo=javascript&logoColor=FFFFFF"/>
+  <br><br>
 </div>
 
 <h3 align="center">𝑻𝒐𝒐𝒍𝒔</h3> 
