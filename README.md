@@ -16,11 +16,10 @@
 
 ---
 
-<center>
+<p align="center" style="font-size: 30px;">
+  <b>제목을 중앙 정렬합니다</b>
+</p>
 
-# Languages and Tools
-
-</center>
 
 
 ---
