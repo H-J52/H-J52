@@ -21,7 +21,7 @@
     </a>
   
  [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/
- api?name=bi-sz)](https://github.com/H-J52/velog-readme-stats)
+ api?name=H-J52)](https://github.com/H-J52/velog-readme-stats)
 </div><br>
 
 ### Stats
