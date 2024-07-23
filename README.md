@@ -30,5 +30,5 @@
 ##
 ### Etc
 
-<a href="mailto:ruy0218@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo='ruy0218@gmail.com'&logoColor=white"></a>
+<a href="mailto:ruy0218@gmail.com"><img src="https://img.shields.io/badge/Gmaillll-EA4335?style=for-the-badge&logo='ruy0218@gmail.com'&logoColor=white"></a>
 <a href="https://velog.io/@doragee"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=Velog&logoColor=white"></a>
