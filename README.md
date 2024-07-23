@@ -32,6 +32,10 @@
   <img align="center" alt="Github" src="https://img.shields.io/badge/Github-2b2d3f?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
   <img align="center" alt="GitBash" src="https://img.shields.io/badge/Git Bash-2b2d3f?style=for-the-badge&logo=git&logoColor=FFFFFF"/> 
   <br><br>
+  <img align="center" alt="VsCode" src="https://img.shields.io/badge/Visual Studio Code-2b2d3f?style=for-the-badge&logo=html5&logoColor=FFFFFF"/>
+  <img align="center" alt="Vs" src="https://img.shields.io/badge/Css-2b2d3f?style=for-the-badge&logo=css3&logoColor=FFFFFF"/>
+  <img align="center" alt="IDE" src="https://img.shields.io/badge/JavaScript-2b2d3f?style=for-the-badge&logo=javascript&logoColor=FFFFFF"/>
+  <br><br>
 </div>
 
 ---
