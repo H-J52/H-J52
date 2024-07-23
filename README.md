@@ -1,12 +1,13 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hong's%20Github&reversal=false&textBg=false&fontColor=fffffe&fontSize=50&fontAlignY=43&animation=fadeIn&rotate=0&strokeWidth=0&descAlign=50&fontAlign=75)
 
-##
+--
 ### Profile
 - 📚 Student
 - 🌱 Currently learning everything
 
-##
-<p align="center">### Languages and Tools</p>
+--
+### Languages and Tools
+
 <div>
   <img align="left" alt="Unity" src="https://img.shields.io/badge/Unity-ffffff?style=for-the-badge&logo=Unity&logoColor=white"/>
   <img align="left" alt="Visual Studio Code" width="26px" src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" />
