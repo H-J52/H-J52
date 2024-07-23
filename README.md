@@ -16,15 +16,6 @@
   <img align="left" alt="HTML" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/600px-HTML5_Badge.svg.png" /> <br>
 </div>
 
-
-##
-### DEV's log 
-
-[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/badge?name=H-J52)](https://velog.io/@doragee)
-<a href="mailto:ruy0218@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white"></a>
-<a href="https://velog.io/@doragee"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=Velog&logoColor=white"></a>
-
-
 ### Stats
 
 <div>
@@ -36,3 +27,8 @@
   <img align="center" height="200" src="https://github-readme-stats.vercel.app/api?username=H-J52&show_icons=true&theme=calm_pink" />
 </div>
 
+##
+### Etc
+
+<a href="mailto:ruy0218@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=ruy0218@gmail.com&logoColor=white"></a>
+<a href="https://velog.io/@doragee"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=Velog&logoColor=white"></a>
