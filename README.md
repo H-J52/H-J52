@@ -11,10 +11,10 @@
 <div align=center> 
   <b>Languages and Tools</b>
 </div>
-
+---
 <center>
 
-# 제목을 중앙 정렬합니다
+# Languages and Tools
 
 </center>
 
