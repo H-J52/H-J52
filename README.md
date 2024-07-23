@@ -9,8 +9,8 @@
 
 <h3 align="center">𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆𝒔 & 𝑻𝒐𝒐𝒍𝒔</h3>
 <div>
-  <img align="left" alt="Unity" src="https://img.shields.io/badge/Unity-ffffff?style=for-the-badge&logo=Unity&logoColor=white"/>
-  <img align="left" alt="Visual Studio Code" width="26px" src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" />
+  <img align="center" alt="Unity" src="https://img.shields.io/badge/Unity-fffffe?style=for-the-badge&logo=Unity&logoColor=2b2d3f"/>
+  <img align="center" alt="Visual Studio Code" width="26px" src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" />
   <img align="left" alt="Microsoft Visual Studio" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/220px-Visual_Studio_Icon_2019.svg.png" />
   <img align="left" alt="C" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/C_Sharp_Icon.png/640px-C_Sharp_Icon.png" />
   <img align="left" alt="Python" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" />
