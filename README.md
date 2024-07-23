@@ -1,7 +1,8 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hong's%20Github&reversal=false&textBg=false&fontColor=fffffe&fontSize=50&fontAlignY=43&animation=fadeIn&rotate=0&strokeWidth=0&descAlign=50&fontAlign=75)
 
 ---
-### Profile
+<h3 align="𝑷𝒓𝒐𝒇𝒊𝒍𝒆">𝑺𝒕𝒂𝒕𝒔</h3>
+
 - 📚 Student
 - 🌱 Currently learning everything
 
@@ -20,7 +21,7 @@
 
 ---
 
-### Stats
+<h3 align="center">𝑺𝒕𝒂𝒕𝒔</h3>
 
 <div align = center>
   <a href="https://github.com/anuraghazra/convoychat">
