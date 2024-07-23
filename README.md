@@ -7,10 +7,7 @@
 
 ---
 
-<center><h1 style="font-size: 40px; font-weight: bold;">Languages & Tools</h1></center>
-
-
-
+<div align = center><h1 style="font-size: 40px; font-weight: bold;">Languages & Tools</h1></div>
 
 ---
 <div>
