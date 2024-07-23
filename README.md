@@ -1,5 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hong's%20Github&reversal=false&textBg=false&fontColor=fffffe&fontSize=50&fontAlignY=43&animation=fadeIn&rotate=0&strokeWidth=0&descAlign=50&fontAlign=75)
 
+##
+
 - 📚 Student
 - 🌱 Currently learning everything
 
@@ -20,7 +22,6 @@
 ### Stats
 
 <div>
-  <!-- Languages Used Card -->
   <a href="https://github.com/anuraghazra/convoychat">
     <img align="center" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=H-J52&theme=calm_pink" />
   </a>
