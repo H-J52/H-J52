@@ -22,12 +22,11 @@
 
 ### Stats
 
-<div>
+<div align = center>
   <a href="https://github.com/anuraghazra/convoychat">
     <img align="center" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=H-J52&theme=calm_pink" />
   </a>
   
-  <!-- GitHub Stats Card -->
   <img align="center" height="200" src="https://github-readme-stats.vercel.app/api?username=H-J52&show_icons=true&theme=calm_pink" />
 </div>
 
