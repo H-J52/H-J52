@@ -16,7 +16,7 @@
 ## 💻 DEV's log 💻
 
 [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/badge?name=H-J52)](https://velog.io/@doragee)
-[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=H-J52)](https://github.com/eungyeole/velog-readme-stats)
+[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=doragee)](https://github.com/eungyeole/velog-readme-stats)
 
 ### Stats
 
