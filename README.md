@@ -16,7 +16,7 @@
   <img align="left" alt="HTML" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/600px-HTML5_Badge.svg.png" />
 </div>
 
-
+<br>
 ##
 ### DEV's log 
 
