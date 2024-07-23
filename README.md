@@ -8,7 +8,7 @@
 
 ---
 
-<h3 align="center">𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆𝒔 & 𝑻𝒐𝒐𝒍𝒔</h3> 
+<h3 align="center">𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆𝒔</h3> 
 <br>
 
 <div align="center">
@@ -17,9 +17,16 @@
   <img align="center" alt="Go" src="https://img.shields.io/badge/Go-2b2d3f?style=for-the-badge&logo=go&logoColor=FFFFFF"/>
   <img align="center" alt="Html" src="https://img.shields.io/badge/Html-2b2d3f?style=for-the-badge&logo=html5&logoColor=FFFFFF"/>
   <br><br>
+</div>
+
+<h3 align="center">𝑻𝒐𝒐𝒍𝒔</h3> 
+<br>
+
+<div align="center">
   <img align="center" alt="Unity" src="https://img.shields.io/badge/Unity-2b2d3f?style=for-the-badge&logo=Unity&logoColor=FFFFFF"/>
   <img align="center" alt="Github" src="https://img.shields.io/badge/Github-2b2d3f?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
-  <img align="center" alt="GitBash" src="https://img.shields.io/badge/Git Bash-2b2d3f?style=for-the-badge&logo=git&logoColor=FFFFFF"/>  
+  <img align="center" alt="GitBash" src="https://img.shields.io/badge/Git Bash-2b2d3f?style=for-the-badge&logo=git&logoColor=FFFFFF"/> 
+  <br><br>
 </div>
 
 ---
