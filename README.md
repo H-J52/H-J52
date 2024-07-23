@@ -34,7 +34,7 @@
   <br><br>
   <img align="center" alt="VsCode" src="https://img.shields.io/badge/Visual Studio Code-2b2d3f?style=for-the-badge&logoColor=FFFFFF"/>
   <img align="center" alt="Vs" src="https://img.shields.io/badge/Visual Studio-2b2d3f?style=for-the-badge&logoColor=FFFFFF"/>
-  <img align="center" alt="Eclipse" src="https://img.shields.io/badge/Eclipse-2b2d3f?style=for-the-badge&logoColor=FFFFFF"/>
+  <img align="center" alt="Eclipse" src="https://img.shields.io/badge/Eclipse-2b2d3f?style=for-the-badge&logo=eclipseide&logoColor=FFFFFF"/>
   <br><br>
 </div>
 
