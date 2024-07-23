@@ -41,6 +41,7 @@
 ---
 
 <h3 align="center">𝑺𝒕𝒂𝒕𝒔</h3>
+<br>
 
 <div align = center>
   <a href="https://github.com/anuraghazra/convoychat">
@@ -50,8 +51,8 @@
   <img align="center" height="200" src="https://github-readme-stats.vercel.app/api?username=H-J52&show_icons=true&theme=calm_pink" />
 </div>
 
-##
-### Etc
+---
+<h3 align="center">𝑬𝒕𝒄</h3>
 
 <a href="mailto:ruy0218@gmail.com"><img src="https://img.shields.io/badge/ruy0218@gmail.com-EA4335?style=for-the-badge&logo=Gmail&logoColor=white"></a>
 <a href="https://velog.io/@doragee"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=Velog&logoColor=white"></a>
