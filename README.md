@@ -8,11 +8,11 @@
 ---
 
 <h3 align="center">𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆𝒔 & 𝑻𝒐𝒐𝒍𝒔</h3>
-<div>
+<div align="center">
   <img align="center" alt="C#" src="https://img.shields.io/badge/C%23-2b2d3f?style=for-the-badge&logo=c&logoColor=FFFFFF"/>
-  <img align="center" alt="Unity" src="https://img.shields.io/badge/Unity-2b2d3f?style=for-the-badge&logo=Unity&logoColor=FFFFFF"/>
-  <img align="center" alt="Unity" src="https://img.shields.io/badge/Unity-2b2d3f?style=for-the-badge&logo=Unity&logoColor=FFFFFF"/>
-  <img align="center" alt="Unity" src="https://img.shields.io/badge/Unity-2b2d3f?style=for-the-badge&logo=Unity&logoColor=FFFFFF"/>
+  <img align="center" alt="Python" src="https://img.shields.io/badge/Python-2b2d3f?style=for-the-badge&logo=python&logoColor=FFFFFF"/>
+  <img align="center" alt="Go" src="https://img.shields.io/badge/Go-2b2d3f?style=for-the-badge&logo=go&logoColor=FFFFFF"/>
+  <img align="center" alt="Html" src="https://img.shields.io/badge/Html-2b2d3f?style=for-the-badge&logo=html5&logoColor=FFFFFF"/>
   <br>
   <img align="center" alt="Unity" src="https://img.shields.io/badge/Unity-2b2d3f?style=for-the-badge&logo=Unity&logoColor=FFFFFF"/>
   
