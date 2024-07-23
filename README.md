@@ -18,3 +18,5 @@
 <a href="https://github.com/anuraghazra/convoychat">
   <img align="center" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=H-J52&theme=react" />
 </a>
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dkssud8150&theme=nord_dark)
