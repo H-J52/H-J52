@@ -12,6 +12,7 @@
   ### Languages and Tools
 </div>
 
+---
 <div>
   <img align="left" alt="Unity" src="https://img.shields.io/badge/Unity-ffffff?style=for-the-badge&logo=Unity&logoColor=white"/>
   <img align="left" alt="Visual Studio Code" width="26px" src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" />
