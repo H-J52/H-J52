@@ -6,17 +6,8 @@
 - 🌱 Currently learning everything
 
 ---
-### Languages and Tools
 
----
-
-<div align=center> 
-# Languages and Tools
-</div>
-
----
-
-<center><h1 style="font-size: 40px; font-weight: bold;">ㅁ</h1></center>
+<center><h1 style="font-size: 40px; font-weight: bold;">Languages & Tools</h1></center>
 
 
 
