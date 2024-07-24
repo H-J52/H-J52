@@ -3,8 +3,10 @@
 ---
 <h3 align="center">𝑷𝒓𝒐𝒇𝒊𝒍𝒆</h3>
 
-- 📚 Student
+<div align="center">
+  - 📚 Student
 - 🌱 Currently learning everything
+</div>
 
 ---
 
