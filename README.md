@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hong's%20Github&reversal=false&textBg=false&fontColor=fffffe&fontSize=50&fontAlignY=43&animation=fadeIn&rotate=0&strokeWidth=0&descAlign=50&fontAlign=75)
+![header](https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&text=Hong's%20Github&section=header&reversal=false&fontSize=45&fontAlignY=85&fontAlign=20&descAlign=49&descAlignY=50)
 
 ---
 <h3 align="center">𝑷𝒓𝒐𝒇𝒊𝒍𝒆</h3>
