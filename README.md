@@ -1,5 +1,6 @@
-![header](https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&text=Hong's%20Github&section=header&reversal=false&fontSize=45&fontAlignY=35&fontAlign=80&descAlign=49&descAlignY=50)
+![header](https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&text=Hong's%20Github&section=header&reversal=false&fontSize=45&fontAlignY=35&fontAlign=80&descAlign=49&descAlignY=50&fontColor=fffffe)
 
+---
 <h3 align="center">𝑷𝒓𝒐𝒇𝒊𝒍𝒆</h3>
 
 <div align="center">
