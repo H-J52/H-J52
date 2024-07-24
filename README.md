@@ -4,8 +4,7 @@
 <h3 align="center">𝑷𝒓𝒐𝒇𝒊𝒍𝒆</h3>
 
 <div align="center">
-  - 📚 Student
-- 🌱 Currently learning everything
+  <b>Hello, I'm Game Developer</b>
 </div>
 
 ---
