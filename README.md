@@ -6,8 +6,11 @@
 <div align="center">
   <b>Hi! Welcome to my github,  I'm Hongs</b>
   <br><br>
-  <b>>  Game Developer</b>
-  <b>>  Game Developer</b>
+  <b>|  Game Developer</b>
+  <b>|  Game Developer</b>
+  <b>|  I enjoy learning new technologies and trends, and I enjoy the process of solving difficult problems.</b>
+  <br>
+  <b>|  I am continuously working to gain experience in the game development field and develop our ability to create innovative games.</b>
 </div>
 
 ---
