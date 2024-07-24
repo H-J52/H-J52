@@ -7,8 +7,9 @@
   <b>Hi! Welcome to my github,  I'm Hongs</b>
   <br><br>
   <b>|  Game Developer</b>
-  <br>
-
+  <br><br>
+  <b>SNS</b>
+  <br><br>
   <a href="mailto:ruy0218@gmail.com"><img src="https://img.shields.io/badge/ruy0218@gmail.com-EA4335?style=for-the-badge&logo=Gmail&logoColor=white"></a>
   <a href="https://velog.io/@doragee"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=Velog&logoColor=white"></a>
 </div>
