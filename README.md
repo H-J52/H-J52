@@ -5,8 +5,9 @@
 
 <div align="center">
   <b>Hi! Welcome to my github,  I'm Hongs</b>
-  <br>
-  <b>> Game Developer</b>
+  <br><br>
+  <b>>  Game Developer</b>
+  <b>>  Game Developer</b>
 </div>
 
 ---
