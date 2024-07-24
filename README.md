@@ -7,8 +7,6 @@
   <b>Hi! Welcome to my github,  I'm Hongs</b>
   <br><br>
   <b>|  Game Developer</b>
-  <br>
-  <b>|  ENFJ</b>
   <br><br>
   <h3 align="center">𝑺𝑵𝑺</h3>
   <a href="mailto:ruy0218@gmail.com"><img src="https://img.shields.io/badge/ruy0218@gmail.com-2b2d3f?style=for-the-badge&logo=Gmail&logoColor=white"></a>
