@@ -7,6 +7,7 @@
   <b>Hi! Welcome to my github,  I'm Hongs</b>
   <br><br>
   <b>|  Game Developer</b>
+  <br>
   <b>|  ENFJ</b>
   <br><br>
   <h3 align="center">𝑺𝑵𝑺</h3>
