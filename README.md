@@ -4,9 +4,9 @@
 <h3 align="center">𝑷𝒓𝒐𝒇𝒊𝒍𝒆</h3>
 
 <div align="center">
-  <b>Hi welcome to my github,  I'm Hongs</b>
+  <b>Hi! Welcome to my github,  I'm Hongs</b>
   <br>
-  <b>Game Developer</b>
+  <b>> Game Developer</b>
 </div>
 
 ---
