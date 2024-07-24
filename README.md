@@ -15,7 +15,7 @@
 <div align="center">
   <a href="mailto:ruy0218@gmail.com"><img src="https://img.shields.io/badge/ruy0218@gmail.com-2b2d3f?style=for-the-badge&logo=Gmail&logoColor=white"></a>
   <a href="https://velog.io/@doragee"><img src="https://img.shields.io/badge/Velog-2b2d3f?style=for-the-badge&logo=Velog&logoColor=white"></a>
-  <br><br> 
+  <br>
 </div>
 
 ---
