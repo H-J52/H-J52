@@ -1,4 +1,4 @@
-name: Update Language Stats
+name: Update Stats Cards
 
 on:
   schedule:
@@ -25,14 +25,20 @@ jobs:
           PAT_1: ${{ secrets.PAT_1 }}
         run: python scripts/generate_lang_stats.py
 
+      - name: Generate GitHub stats SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT_1: ${{ secrets.PAT_1 }}
+        run: python scripts/generate_github_stats.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add lang-stats.svg
+          git add lang-stats.svg github-stats.svg
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update language stats"
+            git commit -m "chore: update stats cards"
             git push
           fi
