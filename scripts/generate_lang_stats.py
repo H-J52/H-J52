@@ -4,11 +4,12 @@ import urllib.request
 import urllib.error
 from collections import defaultdict
 
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+# PAT_1 우선 사용 (비공개 레포 접근), 없으면 GITHUB_TOKEN fallback
+GITHUB_TOKEN = os.environ.get("PAT_1") or os.environ.get("GITHUB_TOKEN", "")
 USERNAME = "H-J52"
 
 LANG_COLORS = {
-    "C#": "#178600",
+    "C#": "#9b4993",
     "Python": "#3572A5",
     "JavaScript": "#f1e05a",
     "TypeScript": "#2b7489",
@@ -32,6 +33,14 @@ LANG_COLORS = {
 }
 DEFAULT_COLOR = "#858585"
 
+# calm_pink 테마 컬러
+BG_COLOR      = "#1d1f33"
+BORDER_COLOR  = "#2d3150"
+TITLE_COLOR   = "#f882a1"
+TEXT_COLOR    = "#cdd6f4"
+SUBTEXT_COLOR = "#a4b1cd"
+BAR_BG_COLOR  = "#2d3150"
+
 
 def github_request(url):
     req = urllib.request.Request(url)
@@ -46,10 +55,14 @@ def github_request(url):
 def get_all_repos():
     repos = []
     page = 1
+    # PAT_1이 있으면 /user/repos (비공개 포함), 없으면 /users/{name}/repos (공개만)
+    if os.environ.get("PAT_1"):
+        base = "https://api.github.com/user/repos?affiliation=owner&per_page=100&page="
+    else:
+        base = f"https://api.github.com/users/{USERNAME}/repos?type=owner&per_page=100&page="
+
     while True:
-        data = github_request(
-            f"https://api.github.com/users/{USERNAME}/repos?per_page=100&page={page}&type=owner"
-        )
+        data = github_request(f"{base}{page}")
         if not data:
             break
         repos.extend(data)
@@ -64,11 +77,9 @@ def get_lang_totals(repos):
     for repo in repos:
         if repo.get("fork"):
             continue
-        name = repo["name"]
+        full_name = repo["full_name"]
         try:
-            langs = github_request(
-                f"https://api.github.com/repos/{USERNAME}/{name}/languages"
-            )
+            langs = github_request(f"https://api.github.com/repos/{full_name}/languages")
             for lang, bytes_count in langs.items():
                 totals[lang] += bytes_count
         except urllib.error.HTTPError:
@@ -81,52 +92,90 @@ def make_svg(top_langs):
     if total == 0:
         return ""
 
-    card_w = 340
-    bar_h = 10
-    bar_y = 130
-    pad = 24
-    row_h = 28
+    card_w  = 320
+    pad     = 25
+    inner_w = card_w - pad * 2
+    row_h   = 40
+    title_h = 55
+    bar_section_h = 22
+    card_h  = title_h + bar_section_h + len(top_langs) * row_h + pad
 
-    legend_h = len(top_langs) * row_h + 16
-    card_h = bar_y + bar_h + 20 + legend_h + pad
-
-    # build bar segments
-    bar_segments = []
+    # 상단 색상 바 세그먼트
+    bar_y = title_h
+    bar_w = inner_w
+    bar_segs = []
     x = pad
-    bar_w = card_w - pad * 2
-    for lang, count in top_langs:
+    # 첫/마지막 rounded 처리용
+    for i, (lang, count) in enumerate(top_langs):
         color = LANG_COLORS.get(lang, DEFAULT_COLOR)
-        w = round((count / total) * bar_w, 2)
-        if w < 1:
-            w = 1
-        bar_segments.append(f'<rect x="{x}" y="{bar_y}" width="{w}" height="{bar_h}" fill="{color}" rx="2"/>')
+        w = max(round((count / total) * bar_w, 2), 2)
+        rx = "3" if i == 0 else ("3" if i == len(top_langs) - 1 else "0")
+        bar_segs.append(
+            f'<rect x="{x}" y="{bar_y}" width="{w}" height="8" fill="{color}" rx="{rx}"/>'
+        )
         x += w
 
-    # build legend rows
-    legend_items = []
-    ly = bar_y + bar_h + 24
+    # 언어별 행 (이름 + 개별 비율바 + 퍼센트)
+    rows = []
+    ry = title_h + bar_section_h + 8
     for lang, count in top_langs:
         color = LANG_COLORS.get(lang, DEFAULT_COLOR)
         pct = round((count / total) * 100, 1)
-        legend_items.append(
-            f'<circle cx="{pad + 6}" cy="{ly + 1}" r="6" fill="{color}"/>'
-            f'<text x="{pad + 18}" y="{ly + 5}" fill="#cdd6f4" font-size="13" font-family="Segoe UI,sans-serif">'
+        bar_fill_w = round((pct / 100) * inner_w, 2)
+
+        rows.append(
+            # 언어 이름 (dot + text)
+            f'<circle cx="{pad + 5}" cy="{ry + 7}" r="5" fill="{color}"/>'
+            f'<text x="{pad + 16}" y="{ry + 12}" fill="{TEXT_COLOR}" '
+            f'font-size="12" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-weight="600">'
             f'{lang}</text>'
-            f'<text x="{card_w - pad}" y="{ly + 5}" fill="#a6adc8" font-size="12" font-family="Segoe UI,sans-serif" '
-            f'text-anchor="end">{pct}%</text>'
+            # 퍼센트 텍스트 (우측)
+            f'<text x="{card_w - pad}" y="{ry + 12}" fill="{SUBTEXT_COLOR}" '
+            f'font-size="11" font-family="Segoe UI,Helvetica,Arial,sans-serif" text-anchor="end">'
+            f'{pct}%</text>'
+            # 배경 바
+            f'<rect x="{pad}" y="{ry + 18}" width="{inner_w}" height="5" fill="{BAR_BG_COLOR}" rx="3"/>'
+            # 채워진 바
+            f'<rect x="{pad}" y="{ry + 18}" width="{bar_fill_w}" height="5" fill="{color}" rx="3"/>'
         )
-        ly += row_h
+        ry += row_h
+
+    # 타이틀 아이콘 (간단한 코드 아이콘 모양)
+    icon = (
+        f'<polyline points="{pad},{28} {pad+6},{33} {pad},{38}" '
+        f'stroke="{TITLE_COLOR}" stroke-width="2" fill="none" stroke-linecap="round"/>'
+        f'<polyline points="{pad+14},{28} {pad+8},{33} {pad+14},{38}" '
+        f'stroke="{TITLE_COLOR}" stroke-width="2" fill="none" stroke-linecap="round"/>'
+    )
 
     svg = f'''<svg width="{card_w}" height="{card_h}" viewBox="0 0 {card_w} {card_h}"
   xmlns="http://www.w3.org/2000/svg">
-  <rect width="{card_w}" height="{card_h}" rx="12" fill="#2b2d3f"/>
-  <text x="{pad}" y="36" fill="#cdd6f4" font-size="15" font-weight="bold"
-    font-family="Segoe UI,sans-serif">Most Used Languages</text>
-  <line x1="{pad}" y1="48" x2="{card_w - pad}" y2="48" stroke="#414356" stroke-width="1"/>
-  <rect x="{pad}" y="60" width="{card_w - pad * 2}" height="{bar_h + 56}" rx="8" fill="#1e1e2e"/>
-  <text x="{pad + 12}" y="88" fill="#a6adc8" font-size="11" font-family="Segoe UI,sans-serif">Language Breakdown</text>
-  {''.join(bar_segments)}
-  {''.join(legend_items)}
+  <style>
+    .fade {{ animation: fadeIn 0.4s ease-in-out forwards; }}
+    @keyframes fadeIn {{ from {{ opacity:0; transform:translateY(8px); }} to {{ opacity:1; transform:translateY(0); }} }}
+  </style>
+
+  <!-- 카드 배경 + 테두리 -->
+  <rect width="{card_w}" height="{card_h}" rx="10" fill="{BG_COLOR}"
+    stroke="{BORDER_COLOR}" stroke-width="1"/>
+
+  <!-- 타이틀 -->
+  {icon}
+  <text x="{pad + 20}" y="37" fill="{TITLE_COLOR}"
+    font-size="14" font-weight="bold"
+    font-family="Segoe UI,Helvetica,Arial,sans-serif">Most Used Languages</text>
+
+  <!-- 구분선 -->
+  <line x1="{pad}" y1="{title_h - 6}" x2="{card_w - pad}" y2="{title_h - 6}"
+    stroke="{BORDER_COLOR}" stroke-width="1"/>
+
+  <!-- 상단 색상 바 -->
+  {''.join(bar_segs)}
+
+  <!-- 언어 행 -->
+  <g class="fade">
+  {''.join(rows)}
+  </g>
 </svg>'''
     return svg
 
@@ -134,7 +183,7 @@ def make_svg(top_langs):
 def main():
     print("Fetching repos...")
     repos = get_all_repos()
-    print(f"Found {len(repos)} repos")
+    print(f"Found {len(repos)} repos (private included: {bool(os.environ.get('PAT_1'))})")
 
     print("Fetching language data...")
     totals = get_lang_totals(repos)
