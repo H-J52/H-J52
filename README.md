@@ -35,7 +35,7 @@
   **Sub**
   <br>
   <img align="center" alt="Python" src="https://img.shields.io/badge/Python-2b2d3f?style=for-the-badge&logo=python&logoColor=FFFFFF"/>
-  <img align="center" alt="Java" src="https://img.shields.io/badge/Java-2b2d3f?style=for-the-badge&logo=openjdk&logoColor=FFFFFF"/>
+  <img align="center" alt="Lua" src="https://img.shields.io/badge/Java-2b2d3f?style=for-the-badge&logo=openjdk&logoColor=FFFFFF"/>
   <img align="center" alt="JavaScript" src="https://img.shields.io/badge/JavaScript-2b2d3f?style=for-the-badge&logo=javascript&logoColor=FFFFFF"/>
   <br><br>
 
